@@ -54,19 +54,16 @@ table {
   /* outline:1px solid black; */
 }
 
-/* 區塊模組 */
+/* 區域模組 */
 body {
   line-height: 1.5;
+}
+img{
+  vertical-align: middle;
 }
 .container {
   width: 1200px;
   margin: 0 auto;
-}
-.bottom-line-2 {
-  border-bottom: 2px solid;
-}
-.bottom-line {
-  border-bottom: 1px solid;
 }
 
 .bg-area,
@@ -91,12 +88,23 @@ body {
 .work-border-left {
   border-left: 1px solid #96a9c4;
 }
-.title {
+h1{
+  font-size: 80px;
+  line-height: 95px;
+  padding-bottom: 22px;
+  padding-top: 40px;
+  border-bottom: 2px solid;
+}
+h2{
   font-size: 32px;
   padding-bottom: 7px;
   border-bottom: 1px solid;
 }
-.subTitle {
+ul{
+  font-size: 24px;
+}
+
+.subtitle {
   font-size: 24px;
   color: #a00404;
   margin-left: 16px;
@@ -112,33 +120,22 @@ body {
 
 /* 樣式模組 */
 
-.text-80 {
-  font-size: 80px;
-  line-height: 95px;
+.bottom-line {
+  border-bottom: 1px solid;
 }
-.text-24 {
-  font-size: 24px;
-}
+
 .text-20 {
   font-size: 20px;
 }
 .text-red {
   color: #a00404;
 }
-
 .text-white {
   color: #ffffff;
 }
-
-.d-block {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 .mb-80 {
   margin-bottom: 80px;
 }
-
 .mb-64 {
   margin-bottom: 64px;
 }
@@ -151,20 +148,16 @@ body {
 .mb-16 {
   margin-bottom: 16px;
 }
-
 .mb-8 {
   margin-bottom: 8px;
 }
+
 .ml-24 {
   margin-left: 24px;
 }
-.pb-22 {
-  padding-bottom: 22px;
-}
+
 .pl-24 {
   padding-left: 24px;
 }
-.pt-40 {
-  padding-top: 40px;
-}
+
 
